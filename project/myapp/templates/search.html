@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    <h1>Search Items</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        <label for="search_word">Search Word:</label>
+        <input type="text" name="search_word" id="search_word" required>
+        <br>
+        <label for="source">Source:</label>
+        <select name="source" id="source" required>
+            <option value="etsy">Etsy</option>
+            <option value="canadianlisted">CanadianListed</option>
+            <option value="auctionzip">Auctionzip</option>
+            <option value="gumtree">Gumtree</option>
+            <option value="UKClassifieds">UKClassifieds</option>
+            <option value="taxidermystore">Taxidermy</option>
+            <option value="picclick">Picclick</option>
+            <option value="1stdibs">1stdibs</option>
+            <option value="boneroom">Boneroom</option>
+            <option value="trocadero">Trocadero</option>
+            <option value="rubylane">Rubylane</option>
+            <option value="usedcalgary">Usedcalgary</option>
+            <option value="ecrater">Ecrater</option>
+            <option value="stoneforgestudios">Stoneforgestudios</option>
+            <option value="jwteacompany">Jwteacompany</option>
+            <option value="ebay">Ebay</option>
+            <option value="chairish">Chairish</option>
+            <option value="weaverleathersupply">Weaverleathersupply</option>
+            <option value="aliexpress">Aliexpress</option>
+            <option value="allegorygallery">Allegorygallery</option>
+            <option value="safariworkstaxidermysales">Safariworkstaxidermysales</option>
+            <option value="clintorms">Clintorms</option>
+        </select>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- <html>
+<head>
+    <title>Python Code Results</title>
+</head>
+<body>
+    <h1>Results:</h1>
+    <p>{{ result }}</p>
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results:</h1>
+    {% for result in results %}
+    <div>
+        <h3>{{ result.title }}</h3>
+        <p>Price: {{ result.price }}</p>
+        <p><a href="{{ result.url }}">View on Site</a></p>
+        <img src="{{ result.image }}" alt="{{ result.title }}" />
+    </div>
+    <hr>
+    {% endfor %}
+</body>
+</html>
