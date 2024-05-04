@@ -18,3 +18,5 @@ Access Web Application: Open a web browser and navigate to the URL where the Dja
 Review Documentation: Refer to the provided procedure guide and results visualization document for detailed insights into the project process and findings.
 
 ![image](https://github.com/HymavathiG2712/Wildlife-data-scraping/assets/122757491/7141c698-9615-4af1-bf35-cc3534c17bf0)
+
+![image](https://github.com/HymavathiG2712/Wildlife-data-scraping/assets/122757491/f6d16229-317d-4b96-a9ed-5fb18aaba3ed)
